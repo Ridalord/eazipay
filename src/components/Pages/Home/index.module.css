@@ -1,0 +1,139 @@
+.homeWrap{
+  position: relative;
+  padding: 0 5%;
+}
+.topSection{
+  display: flex;
+  position: relative;
+  padding-top: 170px;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.imageContainer{
+  width: 670.699px;
+  height: 670.699px;
+  flex-shrink: 0;
+  border-radius: 670.699px;
+  background: radial-gradient(83.29% 55.00% at 50.00% 50.00%, #227565 0%, #072B24 100%);
+  position: relative;
+  z-index: -1;
+}
+.introImg{
+  position: absolute;
+  top: 12%;
+  right: -64px;
+  border-radius: 32.888px 0 0 32.888px;
+    background: #072923;
+    z-index: 0;
+}
+.frame1,
+.frame2,
+.frame3{
+  position: absolute;
+}
+.frame3{
+  top: 480px;
+  left: 0;
+}
+.frame2{
+  top: 40%;
+  left: -22%;
+}
+.introText>h1{
+  color: var(--new-styles-text-heading, #292A29);
+  font-family: 'MADE Mellow PERSONAL USE';
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 72px;
+}
+.goldText{
+  color: var(--new-styles-secondary-army, #B4A572);
+}
+.strawberry{
+  color: var(--new-styles-secondary-strawberry, #EA4E4B);
+}
+.introText>p{
+  color: var(--new-styles-text-body-dark, #515251);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  width: 80%;
+}
+.regButton{
+  padding: 16px 36px;
+  border-radius: 32px;
+}
+
+.downloadContainer{
+  padding: 12px;
+  margin-top: 72px;
+}
+.downloadContainer>h4 {
+  margin: 0;
+}
+.downloadContainer>div{
+  display: inline-flex;
+  column-gap: 16px;
+  border-radius: 8px;
+  background: var(--new-styles-shades-white, #FFF);
+  box-shadow: 0px 20px 48px 0px rgba(170, 170, 170, 0.29);
+  padding: 12px;
+  margin-right: 16px;
+}
+.downloadContainer>div>div:first-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  background-color: #F2F1F1;
+  border-radius: 50%;
+}
+.downloadContainer>div>div:last-child {
+  display: flex;
+  flex-direction: column;
+}
+.downloadContainer>div>div:last-child>span:first-child{
+  color: var(--new-styles-text-body-dark, #515251);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+.downloadContainer>div>div:last-child>span:last-child{
+  color: var(--new-styles-text-body-dark, #515251);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.ellipse{
+  position: absolute;
+  z-index: -2;
+}
+.ellipse4{
+  top: 0;
+  right: 0;
+}
+.ellipse3{
+  top: 0;
+  left: 0;
+}
+.ellipse2{
+  left: 0;
+  top: 451px;
+}
+.ellipse1{
+  right: 0;
+  top: 451px;
+}
+.pattern{
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

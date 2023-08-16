@@ -5,13 +5,26 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'MADE Mellow PERSONAL USE';
+  src: url('./fonts/made-mellow-personal-use.regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 *{
   font-family: "Aeonik", sans-serif;
 }
-
+.App{
+  position: relative;
+}
 .App-header{
   display: flex;
   justify-content: center;
-  padding: 20px 0;
-  position: relative;
+  padding: 20px;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  z-index: 4;
 }

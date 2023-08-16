@@ -12,10 +12,10 @@
 .navWrap{
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  /* width: 90%; */
   justify-self: center;
-  background-color: transparent;
-  position: fixed;
+  /* position: fixed; */
+  background-color: #fff;
 }
 .navContent{
   display: flex;
@@ -28,7 +28,8 @@
   line-height: 24px;
   margin: 0;
   align-items: center;
-  background-color: transparent;
+  background-color: #fff;
+  margin-right: 134px;
 }
 .navLink{
   text-decoration: none;

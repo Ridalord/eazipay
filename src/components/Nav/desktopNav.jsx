@@ -29,7 +29,7 @@ export default function DesktopNav() {
         </ul>
         <div className={classes.navButtons}>
           <LoginButton />
-          <RegisterButton />
+          <RegisterButton textContent="Register" />
         </div>
       </nav>
   );
