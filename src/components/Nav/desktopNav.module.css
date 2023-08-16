@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Aeonik';
+  src: url('../../fonts/AeonikTRIAL-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  font-family: "Aeonik", sans-serif;
+}
+
+.navWrap{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  justify-self: center;
+  background-color: transparent;
+  position: fixed;
+}
+.navContent{
+  display: flex;
+  padding: 0;
+  list-style: none;
+  column-gap: 48px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0;
+  align-items: center;
+  background-color: transparent;
+}
+.navLink{
+  text-decoration: none;
+  color: var(--new-styles-text-body-dark, #515251);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.navButtons{
+  display: flex;
+  column-gap: 24px;
+}
