@@ -1,0 +1,26 @@
+.cardWrap{
+  padding: 64px;
+  border-radius: 16px;
+  background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(217, 235, 205, 0.14) 0%, rgba(217, 235, 205, 0.03) 100%), #11453B;
+  box-shadow: -11px 0px 19px 0px rgba(23, 23, 23, 0.30), 0px 13px 20px 0px rgba(23, 23, 23, 0.20);
+  width: 36%;
+  height: 220px;
+}
+.cardWrap>h3{
+  color: var(--new-styles-shades-white, #FFF);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.cardWrap>p{
+  color: var(--new-styles-shades-white, #FFF);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+.cardWrap>p:last-child{
+  margin-bottom: 0;
+}
