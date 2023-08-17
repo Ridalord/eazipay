@@ -3,6 +3,7 @@ import classes from "./index.module.css"
 import IntroSection from "./introSection";
 import AboutSection from "./aboutSection";
 import HowSection from "./howSection";
+import FreeForever from "./freeForever";
 
 
 
@@ -11,7 +12,8 @@ export default function Home() {
     <div className={classes.homeWrap}>
       <IntroSection />
       <AboutSection />
-      <HowSection/>
+      <HowSection />
+      <FreeForever/>
       <img className={`${classes.ellipse} ${classes.ellipse4}`} src="./group17.png" alt="Ellipse 4" />
       <img className={`${classes.ellipse} ${classes.ellipse3}`} src="./group16.png" alt="Ellipse 3" />
       <img className={`${classes.ellipse} ${classes.ellipse2}`} src="./group18.png" alt="Ellipse 2" />

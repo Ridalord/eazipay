@@ -2,11 +2,13 @@
   position: relative;
   overflow-x: hidden;
 }
+.homeWrap::-webkit-scrollbar{
+  width: 0;
+}
 .topSection{
   display: flex;
   position: relative;
   padding: 170px 5% 0;
-  /* padding-top: 170px; */
   justify-content: space-around;
   align-items: center;
   height: 100vh;
@@ -151,18 +153,23 @@
 }
 
 .aboutWrap, 
-.howWrap{
+.howWrap, 
+.fourthSection{
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
   background-color: #F0F7EB;
-  padding: 166px 5% 0;
-  height: 100vh;
+  padding: 166px 5% 130px;
+  height: fit-content;
+}
+.aboutWrap{
+  margin-top: 103px;
 }
 .howWrap{
   background-color: #fff;
   padding-top: 93px;
+  height: fit-content;
 }
 .aboutHeader{
   text-align: center;
@@ -237,7 +244,6 @@
 .aboutWrap>p{
   color: var(--new-styles-text-body-dark, #515251);
   text-align: center;
-  font-family: Aeonik;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -307,7 +313,6 @@
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.2px;
-  /* margin: 0; */
 }
 .steps>div>p{
   color: var(--new-styles-text-body-dark, #515251);
@@ -315,7 +320,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  /* flex-wrap: ; */
   margin: 0;
   width: 128%;
 }
@@ -331,4 +335,65 @@
   height: 230px;
   right: -150px;
   top: 200px;
+}
+
+
+.fourthSection{
+  flex-direction: row;
+  background-color: #FFE9E7;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+}
+.freeImg{
+  width: 100%;
+}
+.imageContainer2{
+  position: relative;
+}
+.freeImg2,
+.freeImg1{
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+.freeImg{
+  position: relative;
+  z-index: 3;
+  right: 14px;
+}
+.freeImg1{
+  top: -14px;
+  /* right: -14px; */
+}
+.freeImg2{
+  left: -14px;
+}
+.message{
+  z-index: 3;
+  position: absolute;
+  left: -27%;
+  top: 30px;
+}
+.introTextFree>h1{
+  color: var(--new-styles-text-heading, #292A29);
+  font-family: "MADE Mellow PERSONAL USE";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 64px;
+  width: 65%;
+}
+.freeHead{
+  padding-bottom: 16px;
+  color: var(--new-styles-text-heading, #292A29);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.fourthSection>img{
+  position: absolute;
+  top: 0;
+  left: 7%;
 }
