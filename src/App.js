@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import DesktopNav from './components/Nav/desktopNav';
 import Home from './components/Pages/Home';
+import Footer from './components/Footer/footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
         </Routes>
+        <Footer/>
       </Router>
       
     </div>
