@@ -4,6 +4,7 @@ import IntroSection from "./introSection";
 import AboutSection from "./aboutSection";
 import HowSection from "./howSection";
 import FreeForever from "./freeForever";
+import DemoSection from "./demoSection";
 
 
 
@@ -13,7 +14,8 @@ export default function Home() {
       <IntroSection />
       <AboutSection />
       <HowSection />
-      <FreeForever/>
+      <FreeForever />
+      <DemoSection/>
       <img className={`${classes.ellipse} ${classes.ellipse4}`} src="./group17.png" alt="Ellipse 4" />
       <img className={`${classes.ellipse} ${classes.ellipse3}`} src="./group16.png" alt="Ellipse 3" />
       <img className={`${classes.ellipse} ${classes.ellipse2}`} src="./group18.png" alt="Ellipse 2" />
