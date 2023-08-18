@@ -1,5 +1,9 @@
 import React from "react";
 import classes from "./index.module.css"
+import howbg from "./howbg.png"
+import howgif from "./how.gif"
+import step1to2 from "./step1to2.svg"
+import step2to3 from "./step2to3.svg"
 
 
 export default function HowSection() {
@@ -11,7 +15,7 @@ export default function HowSection() {
       </div>
       <div className={classes.contentWrap}>
         <div className={classes.gifWrap}>
-          <img src="/how.gif" alt="How Steps" />
+          <img src={howgif} alt="How Steps" />
         </div>
         <div className={classes.steps}>
           <div className={classes.step1}>
@@ -29,10 +33,10 @@ export default function HowSection() {
             <h4>Prepare your Transaction</h4>
             <p>Run payroll: Bulk Salaries and Compliance are done at once!</p>
           </div>
-          <img className={classes.step1to2} src="/step1to2.svg" alt="Pointers" />
-          <img className={classes.step2to3} src="/step2to3.svg" alt="Pointers" />
+          <img className={classes.step1to2} src={step1to2} alt="Pointers" />
+          <img className={classes.step2to3} src={step2to3} alt="Pointers" />
         </div>
-        <img src="/howbg.png" alt="Background" />
+        <img src={howbg} alt="Background" />
       </div>
     </div>
   )
