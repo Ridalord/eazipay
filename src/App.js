@@ -18,7 +18,7 @@ function App() {
           <DesktopNav />
         </header>
         <Routes>
-          <Route path='/home' element={<Home />} />
+          <Route path='/' element={<Home />} />
         </Routes>
         <Routes>
           <Route path='/dashboard' element={<Dashboard/>} />
