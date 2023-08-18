@@ -8,6 +8,7 @@ import {
 import DesktopNav from './components/Nav/desktopNav';
 import Home from './components/Pages/Home';
 import Footer from './components/Footer/footer';
+import Dashboard from './components/Pages/Dashboard/dashboard';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         </header>
         <Routes>
           <Route path='/' element={<Home />} />
+        </Routes>
+        <Routes>
+          <Route path='/dashboard' element={<Dashboard/>} />
         </Routes>
         <Footer/>
       </Router>

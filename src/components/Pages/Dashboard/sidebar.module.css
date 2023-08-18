@@ -1,0 +1,11 @@
+.sidebarWrap{
+  position: fixed;
+  height: 100vh;
+}
+.navList{
+  padding: 0;
+  margin: 0;
+}
+.logo{
+  margin-bottom: 45px;
+}

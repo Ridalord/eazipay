@@ -1,0 +1,14 @@
+.dashboardWrap{
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.dashboardConent{
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
