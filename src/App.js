@@ -12,7 +12,7 @@ import Dashboard from './components/Pages/Dashboard/dashboard';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/eazipay">
         <header className="App-header">
           <DesktopNav />
         </header>
