@@ -9,7 +9,10 @@ export default function Dashboard() {
       <div className={classes.dashboardConent}>
         <Sidebar />
         <div className={classes.main}>
-          <DashboardNav/>
+          <DashboardNav />
+          <div className={classes.contentWrap}>
+            Dashboard Content
+          </div>
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@
   height: 100vh;
   background-color: #fff;
   width: 18.77%;
+  z-index: 4;
 }
 .navList{
   padding: 0;

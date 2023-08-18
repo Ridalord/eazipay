@@ -23,3 +23,10 @@
   justify-content: right;
   align-items: flex-end;
 }
+.contentWrap{
+  position: relative;
+  z-index: 1;
+  width: 69.69%;
+  padding: 146px 79px 46px;
+  /* background-color: blue; */
+}

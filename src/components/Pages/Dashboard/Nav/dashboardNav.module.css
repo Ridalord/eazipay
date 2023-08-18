@@ -5,7 +5,7 @@
   flex-direction: row;
   width: 72.5%;
   justify-content: space-between;
-  position: fixed;
+  position: fixed;z-index: 12;
 }
 .dashboardNav>div{
   /* width: 100%; */
