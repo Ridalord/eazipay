@@ -1,5 +1,7 @@
 import React from "react";
 import classes from "./index.module.css"
+import demobg from "./demobg.png"
+import demobg1 from "./demobg1.png"
 
 
 export default function DemoSection() {
@@ -32,8 +34,8 @@ export default function DemoSection() {
           <button>Request Demo</button>
         </form>
       </div>
-      <img className={classes.demobg} src="/demobg.png" alt="Demo Background" />
-      <img className={classes.demobg1} src="/demobg1.png" alt="Demo Background" />
+      <img className={classes.demobg} src={demobg} alt="Demo Background" />
+      <img className={classes.demobg1} src={demobg1} alt="Demo Background" />
     </div>
   )
 }

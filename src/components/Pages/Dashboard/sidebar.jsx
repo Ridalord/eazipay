@@ -11,6 +11,7 @@ import loanIcon from "./loanIcon.svg"
 import bookKeepIcon from "./bookKeepIcon.svg"
 import supportIcon from "./supportIcon.svg"
 import settingsIcon from "./settingsIcon.svg"
+import dashboardLogo from "./dashboardLogo.png"
 
 const sidebarData = [
   {
@@ -75,7 +76,7 @@ export default function Sidebar({ onToggleSidebar, toggleSidebar, onNavItemClick
       <div className={`${classes.sidebarWrap} ${className}`}>
         <Link href={"/"}>
         <div className={classes.logo}>
-          <img src="/dashboardLogo.png" alt="Dashboard Logo" />
+          <img src={dashboardLogo} alt="Dashboard Logo" />
         </div>
         </Link>
         <ul className={classes.navList}>

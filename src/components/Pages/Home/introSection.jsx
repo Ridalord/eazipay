@@ -1,6 +1,12 @@
 import React from "react";
 import classes from "./index.module.css"
 import RegisterButton from "../../UI/Buttons/registerButton";
+import appleIcon from "./appleIcon.svg"
+import playIcon from "./playIcon.svg"
+import desktop from "./Desktop.jpg"
+import frame1 from "./frame1.png"
+import frame2 from "./frame2.png"
+import frame3 from "./frame3.png"
 
 export default function IntroSection() {
   return (
@@ -14,14 +20,14 @@ export default function IntroSection() {
         <div className={classes.downloadContainer}>
           <h4>Download the Eazipay App</h4>
           <div>
-            <div><img src="/appleIcon.svg" alt="Apple Icon" /></div>
+            <div><img src={appleIcon} alt="Apple Icon" /></div>
             <div>
               <span>Download on the</span>
               <span>Appstore</span>
             </div>
           </div>
           <div>
-            <div><img src="/playIcon.svg" alt="Play Icon" /></div>
+            <div><img src={playIcon} alt="Play Icon" /></div>
             <div>
               <span>Get on</span>
               <span>Google Play</span>
@@ -30,10 +36,10 @@ export default function IntroSection() {
         </div>
       </div>
       <div className={classes.imageContainer}>
-        <img className={classes.introImg} src="/Desktop.jpg" alt="Intro" />
-        <img className={classes.frame1} src="/frame1.png" alt="Frame 1" />
-        <img className={classes.frame2} src="/frame2.png" alt="Frame 2" />
-        <img className={classes.frame3} src="/frame3.png" alt="Frame 3" />
+        <img className={classes.introImg} src={desktop} alt="Intro" />
+        <img className={classes.frame1} src={frame1} alt="Frame 1" />
+        <img className={classes.frame2} src={frame2} alt="Frame 2" />
+        <img className={classes.frame3} src={frame3} alt="Frame 3" />
       </div>
     </div>
   )
