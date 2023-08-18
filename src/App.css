@@ -17,6 +17,7 @@
 }
 .App{
   position: relative;
+  /* overflow: hidden; */
 }
 .App-header{
   display: flex;
@@ -27,4 +28,5 @@
   width: 100%;
   top: 0;
   z-index: 4;
+  /* overflow: hidden; */
 }
