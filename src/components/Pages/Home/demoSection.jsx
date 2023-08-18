@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./index.module.css"
 import demobg from "./demobg.png"
 import demobg1 from "./demobg1.png"
+import { Link } from "react-router-dom";
 
 
 export default function DemoSection() {
@@ -31,7 +32,9 @@ export default function DemoSection() {
             <input type="text" name="job" id="job" placeholder="Job Title" />
             <input type="text" name="companySize" id="companySize" placeholder="Company Size" />
           </div>
-          <button>Request Demo</button>
+          <Link to={"/dashboard"}>
+            <button>Request Demo</button>          
+          </Link>
         </form>
       </div>
       <img className={classes.demobg} src={demobg} alt="Demo Background" />
