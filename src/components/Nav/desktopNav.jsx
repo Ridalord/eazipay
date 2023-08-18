@@ -10,7 +10,7 @@ export default function DesktopNav() {
       <nav className={classes.navWrap}>
         <ul className={classes.navContent}>
           <li>
-            <Link to="/">
+            <Link to="/home">
               <img src={EaziLogo} alt="Eazi Logo" /> {/* Render the SVG logo as an image */}
             </Link>
           </li>
