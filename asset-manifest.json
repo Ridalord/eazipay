@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eazipay/static/css/main.8aff1bba.css",
-    "main.js": "/eazipay/static/js/main.7fc5bdea.js",
+    "main.js": "/eazipay/static/js/main.a0fe0f20.js",
     "static/js/787.e997b95a.chunk.js": "/eazipay/static/js/787.e997b95a.chunk.js",
     "static/media/adminImg.jpeg": "/eazipay/static/media/adminImg.ce2b2eba0a9e7b27d202.jpeg",
     "static/media/customerLogo.png": "/eazipay/static/media/customerLogo.64e1ee50f0f205202e98.png",
@@ -25,11 +25,11 @@
     "static/media/user-plus.svg": "/eazipay/static/media/user-plus.6b459e401cbfeddc5839f443eb3ddc61.svg",
     "static/media/arrowDown.svg": "/eazipay/static/media/arrowDown.62c5cb8094e213f69e88a047efeb9b38.svg",
     "main.8aff1bba.css.map": "/eazipay/static/css/main.8aff1bba.css.map",
-    "main.7fc5bdea.js.map": "/eazipay/static/js/main.7fc5bdea.js.map",
+    "main.a0fe0f20.js.map": "/eazipay/static/js/main.a0fe0f20.js.map",
     "787.e997b95a.chunk.js.map": "/eazipay/static/js/787.e997b95a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8aff1bba.css",
-    "static/js/main.7fc5bdea.js"
+    "static/js/main.a0fe0f20.js"
   ]
 }
