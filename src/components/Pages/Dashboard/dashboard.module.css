@@ -11,6 +11,7 @@
   position: relative;
   margin: 0;
   padding: 0;
+  width: 100vw;
 }
 .main{
   background: var(--old-styles-mainbackgroundcoloronly, #F9FAFC);
@@ -25,7 +26,7 @@
   position: relative;
   z-index: 1;
   width: 69.69%;
-  padding: 146px 79px 46px;
+  padding: 146px 6% 46px;
 }
 .greetingHeader>h1{
   margin: 0;
