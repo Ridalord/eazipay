@@ -11,7 +11,10 @@ export default function Dashboard() {
         <div className={classes.main}>
           <DashboardNav />
           <div className={classes.contentWrap}>
-            Dashboard Content
+            <div className={classes.greetingHeader}>
+              <h1>Welcome  Abasiama</h1>
+              <p>Pay and manage your employee in minutes</p>
+            </div>
           </div>
         </div>
       </div>

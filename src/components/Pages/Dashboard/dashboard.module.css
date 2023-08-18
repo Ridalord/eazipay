@@ -13,8 +13,6 @@
   padding: 0;
 }
 .main{
-  /* position: relative; */
-  /* width: 88%; */
   background: var(--old-styles-mainbackgroundcoloronly, #F9FAFC);
   min-height: 100vh;
   right: 0;
@@ -28,5 +26,20 @@
   z-index: 1;
   width: 69.69%;
   padding: 146px 79px 46px;
-  /* background-color: blue; */
+}
+.greetingHeader>h1{
+  margin: 0;
+  padding: 0;
+  color: var(--new-styles-text-heading, #292A29);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.greetingHeader>p{
+  margin: 0;
+  color: var(--new-styles-text-body-dark, #515251);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
 }
