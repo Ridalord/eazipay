@@ -4,6 +4,7 @@ import Sidebar from "./sidebar";
 import DashboardNav from "./Nav/dashboardNav";
 import DashboardWallet from "./dashboardWallet";
 import FlowBoard from "./flowBoard";
+import RecentActivity from "./recentActivity";
 
 export default function Dashboard() {
   return (
@@ -18,7 +19,8 @@ export default function Dashboard() {
               <p>Pay and manage your employee in minutes</p>
             </div>
             <DashboardWallet />
-            <FlowBoard/>
+            <FlowBoard />
+            <RecentActivity/>
           </div>
         </div>
       </div>
