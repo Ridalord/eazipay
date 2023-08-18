@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  // Link,
 } from "react-router-dom";
 import DesktopNav from './components/Nav/desktopNav';
 import Home from './components/Pages/Home';
@@ -18,14 +17,11 @@ function App() {
           <DesktopNav />
         </header>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
-        <Routes>
-          <Route path='/dashboard' element={<Dashboard/>} />
-        </Routes>
-        <Footer/>
+        <Footer />
       </Router>
-      
     </div>
   );
 }
