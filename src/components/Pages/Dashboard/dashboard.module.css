@@ -12,3 +12,14 @@
   margin: 0;
   padding: 0;
 }
+.main{
+  /* position: relative; */
+  /* width: 88%; */
+  background: var(--old-styles-mainbackgroundcoloronly, #F9FAFC);
+  min-height: 100vh;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+}

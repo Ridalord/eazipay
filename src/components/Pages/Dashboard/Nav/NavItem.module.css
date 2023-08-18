@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   padding: 18px 20px;
-  transition: background-color 0.3s;
+  transition: all 0.3s ease-in-out;
   border-bottom: 0.8px solid var(--new-styles-grays-outline, #E7E8E7);
 }
 .text{
