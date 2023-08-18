@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/eazipay/static/css/main.8aff1bba.css",
-    "main.js": "/eazipay/static/js/main.31ed87c9.js",
+    "main.css": "/eazipay/static/css/main.38535f03.css",
+    "main.js": "/eazipay/static/js/main.01e42bd0.js",
     "static/js/787.e997b95a.chunk.js": "/eazipay/static/js/787.e997b95a.chunk.js",
     "static/media/how.gif": "/eazipay/static/media/how.f9735dbc4a2725d0a313.gif",
     "static/media/adminImg.jpeg": "/eazipay/static/media/adminImg.ce2b2eba0a9e7b27d202.jpeg",
@@ -52,12 +52,12 @@
     "static/media/appleIcon.svg": "/eazipay/static/media/appleIcon.43b5ef9569fdbd09338043d363a46339.svg",
     "static/media/freeimg2.svg": "/eazipay/static/media/freeimg2.39faa5db21b86c5a0f9288d2b314fd34.svg",
     "static/media/arrowDown.svg": "/eazipay/static/media/arrowDown.62c5cb8094e213f69e88a047efeb9b38.svg",
-    "main.8aff1bba.css.map": "/eazipay/static/css/main.8aff1bba.css.map",
-    "main.31ed87c9.js.map": "/eazipay/static/js/main.31ed87c9.js.map",
+    "main.38535f03.css.map": "/eazipay/static/css/main.38535f03.css.map",
+    "main.01e42bd0.js.map": "/eazipay/static/js/main.01e42bd0.js.map",
     "787.e997b95a.chunk.js.map": "/eazipay/static/js/787.e997b95a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8aff1bba.css",
-    "static/js/main.31ed87c9.js"
+    "static/css/main.38535f03.css",
+    "static/js/main.01e42bd0.js"
   ]
 }
