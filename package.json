@@ -1,7 +1,7 @@
 {
   "name": "eazipay",
   "version": "0.1.0",
-  "homepage": "https://Ridalord.github.io/eazipay/home",
+  "homepage": "https://Ridalord.github.io/eazipay/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
