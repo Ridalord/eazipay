@@ -3,6 +3,7 @@ import classes from "./recentActivity.module.css"
 import magnifier from "./Magnifier.svg"
 import equalixer from "./equalizer.svg"
 import DailyActivity from "./dailyActivity";
+import { DEFAULT_ACTIVITY_ITEMS } from "../../default/default";
 
 
 export default function RecentActivity() {
@@ -22,7 +23,15 @@ export default function RecentActivity() {
         </button>
       </div>
       <div>
-        <DailyActivity/>
+        {/* <DailyActivity/> */}
+        {DEFAULT_ACTIVITY_ITEMS.map((item) => (
+          <DailyActivity
+            key={item.id}
+            date={item.date}
+            paymentType={item.paymentType}
+            activityItems={item.activityItems}
+          />
+        ))}
       </div>
     </div>
   )

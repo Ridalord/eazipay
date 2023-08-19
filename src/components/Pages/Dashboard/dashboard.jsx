@@ -5,6 +5,7 @@ import DashboardNav from "./Nav/dashboardNav";
 import DashboardWallet from "./dashboardWallet";
 import FlowBoard from "./flowBoard";
 import RecentActivity from "./recentActivity";
+import GreetingHeader from "./greetingHeader";
 
 export default function Dashboard() {
   return (
@@ -14,10 +15,7 @@ export default function Dashboard() {
         <div className={classes.main}>
           <DashboardNav />
           <div className={classes.contentWrap}>
-            <div className={classes.greetingHeader}>
-              <h1>Welcome  Abasiama</h1>
-              <p>Pay and manage your employee in minutes</p>
-            </div>
+            <GreetingHeader name="Abasiama"/>
             <DashboardWallet />
             <FlowBoard />
             <RecentActivity/>
