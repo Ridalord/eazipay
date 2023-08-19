@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/eazipay/static/css/main.38535f03.css",
-    "main.js": "/eazipay/static/js/main.01e42bd0.js",
+    "main.css": "/eazipay/static/css/main.5f167658.css",
+    "main.js": "/eazipay/static/js/main.48c410c0.js",
     "static/js/787.e997b95a.chunk.js": "/eazipay/static/js/787.e997b95a.chunk.js",
     "static/media/how.gif": "/eazipay/static/media/how.f9735dbc4a2725d0a313.gif",
     "static/media/adminImg.jpeg": "/eazipay/static/media/adminImg.ce2b2eba0a9e7b27d202.jpeg",
@@ -27,6 +27,7 @@
     "static/media/loanIcon.svg": "/eazipay/static/media/loanIcon.93ec82f40622655db21c9116f3e37815.svg",
     "static/media/walletIcon.svg": "/eazipay/static/media/walletIcon.1b28a71aca1f03cb498adfeded343414.svg",
     "static/media/calendar.svg": "/eazipay/static/media/calendar.09f914efa29745c6784dee15654df4cc.svg",
+    "static/media/equalizer.svg": "/eazipay/static/media/equalizer.b15158951015657d51b2e710ca23c9b9.svg",
     "static/media/footerLogo.svg": "/eazipay/static/media/footerLogo.95d3454c455055fabf0cf403b098c7d7.svg",
     "static/media/eaziLogo.svg": "/eazipay/static/media/eaziLogo.696ba353758d7d2ad1477230ae8c380a.svg",
     "static/media/payrollIcon.svg": "/eazipay/static/media/payrollIcon.e7575a5acced53e09927d83a4040c2fd.svg",
@@ -42,6 +43,7 @@
     "static/media/step1to2.svg": "/eazipay/static/media/step1to2.3ea6a7679beade9ac310a95b82e17c99.svg",
     "static/media/playIcon.svg": "/eazipay/static/media/playIcon.7276844f5773bbc026403770667056b2.svg",
     "static/media/step2to3.svg": "/eazipay/static/media/step2to3.3495e537b90ed1509bcabde766d2c60e.svg",
+    "static/media/Magnifier.svg": "/eazipay/static/media/Magnifier.5eabbc5c61c065fe15ecfad706e8c30d.svg",
     "static/media/linkedinIcon.svg": "/eazipay/static/media/linkedinIcon.2bd6b17f379227d7e9f5f20b0d88bbf7.svg",
     "static/media/complianceIcon.svg": "/eazipay/static/media/complianceIcon.2f6ba8a5bb6bf5ce6b8b33c5e7812279.svg",
     "static/media/arrowRightIcon.svg": "/eazipay/static/media/arrowRightIcon.16d84a1268d8323f493a14321bff8759.svg",
@@ -52,12 +54,12 @@
     "static/media/appleIcon.svg": "/eazipay/static/media/appleIcon.43b5ef9569fdbd09338043d363a46339.svg",
     "static/media/freeimg2.svg": "/eazipay/static/media/freeimg2.39faa5db21b86c5a0f9288d2b314fd34.svg",
     "static/media/arrowDown.svg": "/eazipay/static/media/arrowDown.62c5cb8094e213f69e88a047efeb9b38.svg",
-    "main.38535f03.css.map": "/eazipay/static/css/main.38535f03.css.map",
-    "main.01e42bd0.js.map": "/eazipay/static/js/main.01e42bd0.js.map",
+    "main.5f167658.css.map": "/eazipay/static/css/main.5f167658.css.map",
+    "main.48c410c0.js.map": "/eazipay/static/js/main.48c410c0.js.map",
     "787.e997b95a.chunk.js.map": "/eazipay/static/js/787.e997b95a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38535f03.css",
-    "static/js/main.01e42bd0.js"
+    "static/css/main.5f167658.css",
+    "static/js/main.48c410c0.js"
   ]
 }
