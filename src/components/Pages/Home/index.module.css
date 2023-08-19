@@ -223,18 +223,23 @@
 
 .cardContainer>div:hover {
   z-index: 5;
-  transform: translateX(-25%) scale(1.05);
+  transform: scale(1.05);
 }
 
 .cardContainer>div:first-child {
   z-index: 2;
   position: absolute;
 }
-
+.cardContainer>div:first-child:hover{
+  z-index: 7;
+}
 .cardContainer>div:nth-child(2) {
   z-index: 3;
   position: absolute;
   left: 25%;
+}
+.cardContainer>div:nth-child(2):hover{
+  z-index: 7;
 }
 
 .cardContainer>div:last-child {
